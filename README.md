@@ -1,54 +1,122 @@
+ 
 <p align="center">
   <img src="assets/banner.svg" alt="Vidhanshu - Backend Engineer" width="100%">
 </p>
 
-Hi, I'm **Vidhanshu**, a backend-focused software engineer who works mostly with **Java and Spring Boot**.
-I'm finishing my M.Sc. IT at Somaiya Vidyavihar University and I'm looking for **fresher software engineering roles**.
+<h1 align="center">Hi, I'm Vidhanshu 👋</h1>
 
-I like understanding how systems work underneath, so I build things like a message queue from scratch instead of only using one.
+<p align="center">
+  Backend-focused Software Engineer | Java | Spring Boot | Distributed Systems
+</p>
+
+<p align="center">
+  Building backend systems from first principles and exploring distributed systems, AI, and scalable applications.
+</p>
+
+---
 
 ## About Me
 
-- Backend developer: Java, Spring Boot, SQL, REST APIs
-- Built a distributed message queue with a custom TCP protocol, replication and leader election
-- Built a GitHub bot that reviews pull requests using an LLM and RAG
-- Working with AI: LLMs, RAG, agentic AI, LangChain and LangGraph in Python
-- Completed an internship at Anantkaal LLP
-- Learning React and TypeScript to be more comfortable on the frontend
+- 🎓 Final-year M.Sc. IT student at Somaiya Vidyavihar University, graduating in 2027.
+- 💻 Backend developer focused on Java, Spring Boot, SQL, and REST APIs.
+- ⚙️ Built a distributed message queue from scratch with a custom TCP protocol, replication, and leader election.
+- 🤖 Built an AI-powered GitHub pull request reviewer using LLMs and RAG.
+- 🧠 Exploring distributed systems, system design, LLMs, and agentic AI.
+- 💼 Completed an internship at Anantkaal LLP.
+- 🌱 Learning React and TypeScript to strengthen my frontend skills.
+- 🎯 Looking for fresher Software Engineer / SDE opportunities.
 
 ## Projects
 
-### [QueueForge](https://github.com/vidhanshu37/QueueForge): distributed message queue
-Kafka-inspired message queue written in Java and Spring Boot, built from scratch.
-- Custom length-prefixed TCP protocol between brokers and clients
-- Partitions with consistent-hash routing (virtual nodes)
-- File-based log with segment rolling, retention and a sparse offset index
-- Leader-follower replication with ISR tracking and producer acks (0 / 1 / all)
-- Raft-based leader election and consumer groups
+### 1. [QueueForge](https://github.com/vidhanshu37/QueueForge) — Distributed Message Queue
 
-### [PR Reviewer](https://github.com/vidhanshu37/REPLACE-WITH-REPO-NAME): AI pull request reviewer
-Spring Boot backend that reviews GitHub pull requests automatically.
-- GitHub App webhook triggers a review on each PR
-- RAG with Postgres and pgvector, LLM through Groq, Redis for caching
-- React + TypeScript dashboard to browse repos, PRs and reviews
+A Kafka-inspired message queue built from scratch using Java and Spring Boot.
 
-### [Patient Management System](https://github.com/vidhanshu37/REPLACE-WITH-REPO-NAME): microservices
-Patient management backend split into independent microservices.
+- Implemented a custom length-prefixed TCP protocol for broker-client communication.
+- Built partition routing using consistent hashing and virtual nodes.
+- Implemented an append-only file-based log with segment rolling, retention, and a sparse offset index.
+- Developed leader-follower replication with ISR tracking and producer acknowledgements (`0`, `1`, and `all`).
+- Implemented Raft-based leader election and consumer groups.
+
+**Tech:** Java, Spring Boot, TCP, Distributed Systems, File I/O
+
+### 2. PR Reviewer — AI-Powered Pull Request Reviewer
+
+An automated GitHub pull request review system that uses LLMs and retrieval-augmented generation to analyze code changes.
+
+- Integrated GitHub App webhooks to trigger reviews when pull requests are opened or updated.
+- Implemented RAG using PostgreSQL and pgvector.
+- Integrated Groq-hosted LLMs for code review generation.
+- Used Redis for caching.
+- Built a React and TypeScript dashboard for repositories, pull requests, and reviews.
+
+**Tech:** Java, Spring Boot, PostgreSQL, pgvector, Redis, LLMs, RAG, React, TypeScript
+
+> Replace the project title with your actual repository link once you confirm the repository name.
+
+### 3. Patient Management System — Microservices
+
+A backend application built using independently deployable microservices for patient management and related operations.
+
+- Developed separate services for patient management, authentication, billing, and analytics.
+- Implemented service communication using REST, Kafka, and gRPC.
+- Used an API Gateway for centralized routing and JWT-based authentication.
+- Containerized services using Docker and integrated PostgreSQL and LocalStack.
+
+**Tech:** Java, Spring Boot, Microservices, REST, Kafka, gRPC, Docker, PostgreSQL
+
+> Add the actual GitHub repository link for this project.
 
 ## Tech Stack
 
-**Backend:** Java, Spring Boot, REST APIs, SQL, Redis
+### Languages
+<p>
+  <img src="https://skillicons.dev/icons?i=java,python,c,cpp" alt="Programming languages">
+</p>
 
-**AI / LLM:** Python, LangChain, LangGraph, LLMs, RAG, Agentic AI
+### Backend & Databases
+<p>
+  <img src="https://skillicons.dev/icons?i=spring,nodejs,express,postgres,mongodb,redis" alt="Backend technologies">
+</p>
 
-[![Tech stack](https://skillicons.dev/icons?i=java,spring,python,postgres,redis,docker,git,react,ts&perline=9)](https://skillicons.dev)
+### Infrastructure & Tools
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,kafka,git,github,linux" alt="Infrastructure and tools">
+</p>
+
+### AI & Frontend
+<p>
+  <img src="https://skillicons.dev/icons?i=python,react,ts" alt="AI and frontend technologies">
+</p>
+
+- **Backend:** Java, Spring Boot, REST APIs, Microservices
+- **Databases:** PostgreSQL, MongoDB, Redis
+- **Messaging:** Kafka, gRPC, TCP sockets
+- **Distributed Systems:** Replication, leader election, consistent hashing
+- **AI:** LLMs, RAG, LangChain, LangGraph, Agentic AI
+- **Tools:** Git, GitHub, Docker, Linux
 
 ## Achievements
 
-- LeetCode max rating **1815** (top 8%)
-- **2nd rank** in a hackathon during my BCA
+- 🏆 LeetCode maximum rating: **1815** (top 8%, as previously reported).
+- 🥈 Secured **2nd rank** in a hackathon during my BCA.
 
-## Contact
+## Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](REPLACE-WITH-LINKEDIN-URL)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:REPLACE-WITH-EMAIL)
+<p>
+  <a href="https://www.linkedin.com/in/vidhanshu37/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+  </a>
+  <a href="mailto:kelawalavidhanshu37@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+  <a href="https://github.com/vidhanshu37">
+    <img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github" alt="GitHub">
+  </a>
+</p>
+
+---
+
+<p align="center">
+  Always learning, building, and improving.
+</p>
