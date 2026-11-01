@@ -17,14 +17,14 @@
 
 ## About Me
 
-- 🎓 Final-year M.Sc. IT student at Somaiya Vidyavihar University, graduating in 2027.
-- 💻 Backend developer focused on Java, Spring Boot, SQL, and REST APIs.
-- ⚙️ Built a distributed message queue from scratch with a custom TCP protocol, replication, and leader election.
-- 🤖 Built an AI-powered GitHub pull request reviewer using LLMs and RAG.
-- 🧠 Exploring distributed systems, system design, LLMs, and agentic AI.
-- 💼 Completed an internship at Anantkaal LLP.
-- 🌱 Learning React and TypeScript to strengthen my frontend skills.
-- 🎯 Looking for fresher Software Engineer / SDE opportunities.
+- Final-year M.Sc. IT student at Somaiya Vidyavihar University, graduating in 2027.
+- Backend developer focused on Java, Spring Boot, SQL, and REST APIs.
+- Built a distributed message queue from scratch with a custom TCP protocol, replication, and leader election.
+- Built an AI-powered GitHub pull request reviewer using LLMs and RAG.
+- Exploring distributed systems, system design, LLMs, and agentic AI.
+- Completed an internship at Anantkaal LLP.
+- Learning React and TypeScript to strengthen my frontend skills.
+- Looking for fresher Software Engineer / SDE opportunities.
 
 ## Projects
 
@@ -40,7 +40,7 @@ A Kafka-inspired message queue built from scratch using Java and Spring Boot.
 
 **Tech:** Java, Spring Boot, TCP, Distributed Systems, File I/O
 
-### 2. PR Reviewer — AI-Powered Pull Request Reviewer
+### 2. [PR Reviewer](https://github.com/vidhanshu37/pr-reviewer) — AI-Powered Pull Request Reviewer
 
 An automated GitHub pull request review system that uses LLMs and retrieval-augmented generation to analyze code changes.
 
@@ -51,21 +51,6 @@ An automated GitHub pull request review system that uses LLMs and retrieval-augm
 - Built a React and TypeScript dashboard for repositories, pull requests, and reviews.
 
 **Tech:** Java, Spring Boot, PostgreSQL, pgvector, Redis, LLMs, RAG, React, TypeScript
-
-> Replace the project title with your actual repository link once you confirm the repository name.
-
-### 3. Patient Management System — Microservices
-
-A backend application built using independently deployable microservices for patient management and related operations.
-
-- Developed separate services for patient management, authentication, billing, and analytics.
-- Implemented service communication using REST, Kafka, and gRPC.
-- Used an API Gateway for centralized routing and JWT-based authentication.
-- Containerized services using Docker and integrated PostgreSQL and LocalStack.
-
-**Tech:** Java, Spring Boot, Microservices, REST, Kafka, gRPC, Docker, PostgreSQL
-
-> Add the actual GitHub repository link for this project.
 
 ## Tech Stack
 
@@ -93,13 +78,12 @@ A backend application built using independently deployable microservices for pat
 - **Databases:** PostgreSQL, MongoDB, Redis
 - **Messaging:** Kafka, gRPC, TCP sockets
 - **Distributed Systems:** Replication, leader election, consistent hashing
-- **AI:** LLMs, RAG, LangChain, LangGraph, Agentic AI
+- **AI:** LLMs, RAG, LangChain, LangGraph, Agentic AI, MCP
 - **Tools:** Git, GitHub, Docker, Linux
 
-## Achievements
+## Competitive Programming
 
-- 🏆 LeetCode maximum rating: **1815** (top 8%, as previously reported).
-- 🥈 Secured **2nd rank** in a hackathon during my BCA.
+- LeetCode maximum rating: **1828** | Top **7%** globally.
 
 ## Connect With Me
 
